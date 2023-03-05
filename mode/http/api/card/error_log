@@ -1,8 +1,0 @@
-[27-Jan-2022 21:19:50 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home2/kenspayc/carddispenser.com.ng/mode/http/api/card/index.php on line 183
-[27-Jan-2022 21:20:17 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home2/kenspayc/carddispenser.com.ng/mode/http/api/card/index.php on line 183
-[27-Jan-2022 21:20:36 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home2/kenspayc/carddispenser.com.ng/mode/http/api/card/index.php on line 183
-[27-Jan-2022 21:26:24 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home2/kenspayc/carddispenser.com.ng/mode/http/api/card/index.php on line 183
-[27-Jan-2022 21:27:05 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home2/kenspayc/carddispenser.com.ng/mode/http/api/card/index.php on line 183
-[27-Jan-2022 21:30:01 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home2/kenspayc/carddispenser.com.ng/mode/http/api/card/index.php on line 183
-[27-Jan-2022 21:31:11 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home2/kenspayc/carddispenser.com.ng/mode/http/api/card/index.php on line 183
-[28-Jan-2022 06:09:21 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home2/kenspayc/carddispenser.com.ng/mode/http/api/card/index.php on line 183
