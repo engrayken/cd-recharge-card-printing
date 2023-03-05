@@ -1,1 +1,0 @@
-<h2>You are not allowed to visit this page please contact support</h2>
