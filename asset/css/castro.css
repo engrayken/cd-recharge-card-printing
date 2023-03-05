@@ -1,0 +1,46 @@
+*{
+margin:0;
+padding:0;
+}
+nav{
+background-image: url('../images/autumn.jpg'); 
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+div{
+background: inherit;
+width: 250px;
+height: 350px;
+position: absolute;
+}
+div:before{
+content: “ ”;
+background: inherit; 
+position: absolute;
+left: 0;
+right: 0;
+top: 0; 
+bottom: 0;
+box-shadow: inset 0 0 0 3000px rgba(255,255,255,0.3);
+filter: blur(10px);
+}
+.castro{
+background-image: url('../images/autumn.jpg'); 
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+background: inherit;
+width: 250px;
+height: 350px;
+position: absolute;
+content: “ ”;
+background: inherit; 
+position: absolute;
+left: 0;
+right: 0;
+top: 0; 
+bottom: 0;
+box-shadow: inset 0 0 0 3000px rgba(255,255,255,0.3);
+filter: blur(10px);
+}

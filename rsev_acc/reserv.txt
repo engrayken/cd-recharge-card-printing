@@ -1,0 +1,51 @@
+stdClass Object
+(
+    [transactionReference] => MNFY|20200626144239|001475
+    [paymentReference] => MNFY|20200626144239|001475
+    [amountPaid] => 300.00
+    [totalPayable] => 300.00
+    [settlementAmount] => 290.00
+    [paidOn] => 26/06/2020 02:42:40 PM
+    [paymentStatus] => PAID
+    [paymentDescription] => Limited
+    [transactionHash] => af3b4f491e25b5a4ae64af580e1ef32978a2b1f5fbfed90749ec5f65a43f5cf342ed16c6211018a8a2a198e1aac8b11482228d7f30756c19fd7ae0518cb027d5
+    [currency] => NGN
+    [paymentMethod] => ACCOUNT_TRANSFER
+    [product] => stdClass Object
+        (
+            [type] => RESERVED_ACCOUNT
+            [reference] => ken4321
+        )
+
+    [cardDetails] => 
+    [accountDetails] => stdClass Object
+        (
+            [accountName] => Monnify Limited
+            [accountNumber] => ******2190
+            [bankCode] => 001
+            [amountPaid] => 300.00
+        )
+
+    [accountPayments] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [accountName] => Monnify Limited
+                    [accountNumber] => ******2190
+                    [bankCode] => 001
+                    [amountPaid] => 300.00
+                )
+
+        )
+
+    [customer] => stdClass Object
+        (
+            [email] => kennethayogu@gmail.com
+            [name] => Kenspay Technology
+        )
+
+    [metaData] => stdClass Object
+        (
+        )
+
+)

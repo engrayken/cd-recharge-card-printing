@@ -1,0 +1,51 @@
+stdClass Object
+(
+    [transactionReference] => MNFY|37|20220210090132|014881
+    [paymentReference] => MNFY|37|20220210090132|014881
+    [amountPaid] => 10000.00
+    [totalPayable] => 10000.00
+    [settlementAmount] => 9892.50
+    [paidOn] => 10/02/2022 09:01:32 AM
+    [paymentStatus] => PAID
+    [paymentDescription] => Hen
+    [transactionHash] => 6cb0ae0a0230271540146f097ae4ee012125efadafb827506526254f68260a421365d3504ccfd3e4338dd15c1a6a01dc054092b74f6a0a3ba581d08642703677
+    [currency] => NGN
+    [paymentMethod] => ACCOUNT_TRANSFER
+    [product] => stdClass Object
+        (
+            [type] => RESERVED_ACCOUNT
+            [reference] => 1643185220
+        )
+
+    [cardDetails] => 
+    [accountDetails] => stdClass Object
+        (
+            [accountName] => EGBUCHUNAM HENRY C
+            [accountNumber] => ******8615
+            [bankCode] => 000018
+            [amountPaid] => 10000.00
+        )
+
+    [accountPayments] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [accountName] => EGBUCHUNAM HENRY C
+                    [accountNumber] => ******8615
+                    [bankCode] => 000018
+                    [amountPaid] => 10000.00
+                )
+
+        )
+
+    [customer] => stdClass Object
+        (
+            [email] => henrysocial11@gmail.com
+            [name] => Henry Egbuchunam
+        )
+
+    [metaData] => stdClass Object
+        (
+        )
+
+)

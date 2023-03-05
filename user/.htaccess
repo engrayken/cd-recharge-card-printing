@@ -1,0 +1,27 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteRule ^([^\.]+)$ $1.php
+RewriteRule ^profile/([0-9-]+) profile.php?id=$1
+RewriteRule ^img/([0-9-]+) profileimg.php?id=$1
+RewriteRule ^plans/([0-9-]+) plans.php?id=$1
+RewriteRule ^security/([0-9-]+) password.php?id=$1
+RewriteRule ^check_review/([0-9-]+) viewreview.php?id=$1
+RewriteRule ^check_ticket/([0-9-]+) viewticket.php?id=$1
+RewriteRule ^update_wallet/([0-9-]+) uwallet.php?id=$1
+RewriteRule ^int_transfer/([0-9-]+) int_transfer.php?id=$1
+RewriteRule ^book_bitcoin/([0-9-]+) book_bitcoin.php?id=$1
+RewriteRule ^fund/([0-9-]+) fund.php?id=$1
+
+
+RewriteRule ^viewcard/([A-Za-z0-9-]+) viewm.php?id=$1
+
+
+RewriteRule ^deposit_preview/([0-9-]+) deposit_preview.php?id=$1
+RewriteRule ^edit_offer/([0-9-]+) edit_offer.php?id=$1
+RewriteRule ^ufund/([0-9-]+)/([0-9-]+) ufund.php?amount=$1&crypto=$2
+RewriteRule ^prostat/([A-Za-z0-9-]+) prostat.php?id=$1
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ 404.php [L]
+
+</IfModule>

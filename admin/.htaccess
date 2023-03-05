@@ -1,0 +1,56 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteRule ^([^\.]+)$ $1.php
+RewriteRule ^admin admin/index.php
+RewriteRule ^error/([0-9]+) view/error.php?id=$1
+RewriteRule ^topup/([0-9]+) view/topup.php?id=$1
+RewriteRule ^approve_transaction view/aptransaction.php
+RewriteRule ^transaction view/transaction.php
+RewriteRule ^ticket view/ticket.php
+RewriteRule ^check_ticket/([0-9]+) view/check_ticket.php?id=$1
+RewriteRule ^check_page/([0-9]+) view/edit_page.php?id=$1
+RewriteRule ^reply_ticket/([0-9]+) view/reply.php?id=$1
+RewriteRule ^security/([0-9]+) view/admin_security.php?id=$1
+RewriteRule ^settings view/general_settings.php
+RewriteRule ^custoproduct view/customer_product.php
+RewriteRule ^email_settings view/email_settings.php
+RewriteRule ^wmethods view/wmethods.php
+RewriteRule ^dashboard view/dashboard.php
+RewriteRule ^social view/social_links.php
+RewriteRule ^logo/([0-9]+) view/main_logo.php?id=$1
+RewriteRule ^pages view/web_pages.php
+RewriteRule ^messages view/messages.php
+RewriteRule ^trading view/trading.php
+RewriteRule ^check_faq/([0-9]+) view/check_faq.php?id=$1
+RewriteRule ^check_category/([0-9]+) view/edit_category.php?id=$1
+RewriteRule ^check_article/([0-9]+) view/edit_article.php?id=$1
+RewriteRule ^check_plan/([0-9]+) view/edit_plan.php?id=$1
+RewriteRule ^check_review/([0-9]+) view/check_review.php?id=$1
+RewriteRule ^check_message/([0-9]+) view/check_message.php?id=$1
+RewriteRule ^faq view/faq.php
+RewriteRule ^about view/about.php
+RewriteRule ^promotion_emails view/newsletter_subscribers.php
+RewriteRule ^send_email view/send_email.php
+RewriteRule ^reviews view/web_reviews.php
+RewriteRule ^cpage view/create_page.php
+RewriteRule ^currency view/currency.php
+RewriteRule ^coins view/coins.php
+RewriteRule ^add_coins view/add_coins.php
+RewriteRule ^cblog view/post_article.php
+RewriteRule ^category view/blog_category.php
+RewriteRule ^offers view/offers.php
+RewriteRule ^bitcoinorder view/bitcoinorder.php
+RewriteRule ^cplan view/add_plan.php
+RewriteRule ^cfaq view/add_faq.php
+RewriteRule ^ar view/article.php
+RewriteRule ^user view/user.php
+RewriteRule ^transfers view/int_transfer.php
+RewriteRule ^manage_users/([0-9]+) view/check_user.php?id=$1
+RewriteRule ^withdraw_cash view/withdraw_cash.php
+RewriteRule ^withdraw_bitcoin view/withdraw_bitcoin.php
+RewriteRule ^product view/product.php
+RewriteRule ^up_wallet/([0-9]+)  view/up_wallet.php?id=$1
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ view/404.php [L]
+</IfModule>

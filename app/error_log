@@ -1,0 +1,522 @@
+[25-May-2021 04:20:49 UTC] PHP Fatal error:  Uncaught phpmailerException: SMTP Error: Could not authenticate. in /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/class.phpmailer.php:1699
+Stack trace:
+#0 /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/class.phpmailer.php(1542): PHPMailer->smtpConnect(Array)
+#1 /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/class.phpmailer.php(1337): PHPMailer->smtpSend('Date: Tue, 25 M...', 'This is a multi...')
+#2 /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/class.phpmailer.php(1215): PHPMailer->postSend()
+#3 /home2/kenspayc/carddispenser.com.ng/app/user.php(706): PHPMailer->send()
+#4 /home2/kenspayc/carddispenser.com.ng/app/user.php(10): user_login()
+#5 {main}
+  thrown in /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/class.phpmailer.php on line 1699
+[31-Jul-2021 22:08:04 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 1192
+[31-Jul-2021 22:08:15 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 1192
+[31-Jul-2021 22:48:15 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 1192
+[31-Jul-2021 22:48:19 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 1192
+[31-Jul-2021 22:48:57 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 1192
+[31-Jul-2021 22:53:34 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 1192
+[31-Jul-2021 22:53:44 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 1192
+[31-Jul-2021 22:57:12 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 1192
+[31-Jul-2021 23:01:25 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 1192
+[31-Jul-2021 23:01:57 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 1192
+[01-Aug-2021 07:04:10 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 1192
+[01-Aug-2021 08:07:32 Africa/Lagos] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/PHPMailerAutoload.php on line 45
+[01-Aug-2021 09:32:26 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 1198
+[01-Aug-2021 09:33:04 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 1198
+[01-Aug-2021 10:39:03 Africa/Lagos] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/PHPMailerAutoload.php on line 45
+[01-Aug-2021 10:12:20 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 931
+[01-Aug-2021 11:29:26 Africa/Lagos] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/PHPMailerAutoload.php on line 45
+[01-Aug-2021 10:35:14 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 937
+[01-Aug-2021 10:35:25 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 937
+[01-Aug-2021 21:30:06 Africa/Lagos] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/PHPMailerAutoload.php on line 45
+[01-Aug-2021 21:35:21 Africa/Lagos] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/PHPMailerAutoload.php on line 45
+[01-Aug-2021 21:44:24 Africa/Lagos] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/PHPMailerAutoload.php on line 45
+[01-Aug-2021 21:45:23 Africa/Lagos] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/PHPMailerAutoload.php on line 45
+[01-Aug-2021 21:48:58 Africa/Lagos] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/PHPMailerAutoload.php on line 45
+[01-Aug-2021 21:51:29 Africa/Lagos] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/PHPMailerAutoload.php on line 45
+[01-Aug-2021 21:57:54 Africa/Lagos] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/PHPMailerAutoload.php on line 45
+[01-Aug-2021 22:00:00 Africa/Lagos] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/PHPMailerAutoload.php on line 45
+[01-Aug-2021 22:01:10 Africa/Lagos] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/PHPMailerAutoload.php on line 45
+[01-Aug-2021 22:02:22 Africa/Lagos] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/PHPMailerAutoload.php on line 45
+[01-Aug-2021 22:04:11 Africa/Lagos] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/PHPMailerAutoload.php on line 45
+[01-Aug-2021 22:09:21 Africa/Lagos] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/PHPMailerAutoload.php on line 45
+[01-Aug-2021 22:10:20 Africa/Lagos] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/PHPMailerAutoload.php on line 45
+[01-Aug-2021 22:14:23 Africa/Lagos] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/PHPMailerAutoload.php on line 45
+[01-Aug-2021 22:19:59 Africa/Lagos] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/PHPMailerAutoload.php on line 45
+[01-Aug-2021 22:32:16 Africa/Lagos] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/PHPMailerAutoload.php on line 45
+[01-Aug-2021 21:36:02 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 931
+[01-Aug-2021 21:47:34 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 931
+[01-Aug-2021 21:48:06 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 931
+[01-Aug-2021 21:50:22 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 931
+[02-Aug-2021 05:09:00 Africa/Lagos] PHP Warning:  Undefined array key "logieeee" in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 604
+[02-Aug-2021 05:19:24 Africa/Lagos] PHP Warning:  Undefined array key "logieeee" in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 604
+[02-Aug-2021 07:17:33 Africa/Lagos] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/PHPMailerAutoload.php on line 45
+[02-Aug-2021 06:19:44 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 932
+[02-Aug-2021 06:20:15 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 932
+[02-Aug-2021 06:20:42 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 932
+[02-Aug-2021 07:24:20 Africa/Lagos] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/PHPMailerAutoload.php on line 45
+[02-Aug-2021 13:06:51 Africa/Lagos] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/PHPMailerAutoload.php on line 45
+[02-Aug-2021 17:14:50 Africa/Lagos] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/PHPMailerAutoload.php on line 45
+[02-Aug-2021 17:16:26 Africa/Lagos] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/PHPMailerAutoload.php on line 45
+[02-Aug-2021 17:51:16 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home2/kenspayc/carddispenser.com.ng/app/card.php:63
+Stack trace:
+#0 /home2/kenspayc/carddispenser.com.ng/app/card.php(8): order_product()
+#1 {main}
+  thrown in /home2/kenspayc/carddispenser.com.ng/app/card.php on line 63
+[02-Aug-2021 17:51:25 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home2/kenspayc/carddispenser.com.ng/app/card.php:63
+Stack trace:
+#0 /home2/kenspayc/carddispenser.com.ng/app/card.php(8): order_product()
+#1 {main}
+  thrown in /home2/kenspayc/carddispenser.com.ng/app/card.php on line 63
+[02-Aug-2021 17:51:56 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home2/kenspayc/carddispenser.com.ng/app/card.php:63
+Stack trace:
+#0 /home2/kenspayc/carddispenser.com.ng/app/card.php(8): order_product()
+#1 {main}
+  thrown in /home2/kenspayc/carddispenser.com.ng/app/card.php on line 63
+[03-Aug-2021 05:03:40 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home2/kenspayc/carddispenser.com.ng/app/card.php:63
+Stack trace:
+#0 /home2/kenspayc/carddispenser.com.ng/app/card.php(8): order_product()
+#1 {main}
+  thrown in /home2/kenspayc/carddispenser.com.ng/app/card.php on line 63
+[03-Aug-2021 05:04:41 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home2/kenspayc/carddispenser.com.ng/app/card.php:63
+Stack trace:
+#0 /home2/kenspayc/carddispenser.com.ng/app/card.php(8): order_product()
+#1 {main}
+  thrown in /home2/kenspayc/carddispenser.com.ng/app/card.php on line 63
+[03-Aug-2021 05:04:49 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home2/kenspayc/carddispenser.com.ng/app/card.php:63
+Stack trace:
+#0 /home2/kenspayc/carddispenser.com.ng/app/card.php(8): order_product()
+#1 {main}
+  thrown in /home2/kenspayc/carddispenser.com.ng/app/card.php on line 63
+[03-Aug-2021 05:05:55 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home2/kenspayc/carddispenser.com.ng/app/card.php:63
+Stack trace:
+#0 /home2/kenspayc/carddispenser.com.ng/app/card.php(8): order_product()
+#1 {main}
+  thrown in /home2/kenspayc/carddispenser.com.ng/app/card.php on line 63
+[03-Aug-2021 05:06:03 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home2/kenspayc/carddispenser.com.ng/app/card.php:63
+Stack trace:
+#0 /home2/kenspayc/carddispenser.com.ng/app/card.php(8): order_product()
+#1 {main}
+  thrown in /home2/kenspayc/carddispenser.com.ng/app/card.php on line 63
+[03-Aug-2021 05:09:07 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home2/kenspayc/carddispenser.com.ng/app/card.php:63
+Stack trace:
+#0 /home2/kenspayc/carddispenser.com.ng/app/card.php(8): order_product()
+#1 {main}
+  thrown in /home2/kenspayc/carddispenser.com.ng/app/card.php on line 63
+[03-Aug-2021 05:09:14 Africa/Lagos] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/PHPMailerAutoload.php on line 45
+[03-Aug-2021 05:09:55 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home2/kenspayc/carddispenser.com.ng/app/card.php:63
+Stack trace:
+#0 /home2/kenspayc/carddispenser.com.ng/app/card.php(8): order_product()
+#1 {main}
+  thrown in /home2/kenspayc/carddispenser.com.ng/app/card.php on line 63
+[03-Aug-2021 05:09:55 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home2/kenspayc/carddispenser.com.ng/app/card.php:63
+Stack trace:
+#0 /home2/kenspayc/carddispenser.com.ng/app/card.php(8): order_product()
+#1 {main}
+  thrown in /home2/kenspayc/carddispenser.com.ng/app/card.php on line 63
+[08-Aug-2021 14:44:14 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::num_rows() in /home2/kenspayc/carddispenser.com.ng/app/user.php:943
+Stack trace:
+#0 /home2/kenspayc/carddispenser.com.ng/app/user.php(12): user_reg()
+#1 {main}
+  thrown in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 943
+[08-Aug-2021 14:44:52 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::num_rows() in /home2/kenspayc/carddispenser.com.ng/app/user.php:943
+Stack trace:
+#0 /home2/kenspayc/carddispenser.com.ng/app/user.php(12): user_reg()
+#1 {main}
+  thrown in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 943
+[08-Aug-2021 15:54:05 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::num_rows() in /home2/kenspayc/carddispenser.com.ng/app/user.php:943
+Stack trace:
+#0 /home2/kenspayc/carddispenser.com.ng/app/user.php(12): user_reg()
+#1 {main}
+  thrown in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 943
+[08-Aug-2021 15:54:18 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::num_rows() in /home2/kenspayc/carddispenser.com.ng/app/user.php:943
+Stack trace:
+#0 /home2/kenspayc/carddispenser.com.ng/app/user.php(12): user_reg()
+#1 {main}
+  thrown in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 943
+[08-Aug-2021 15:54:22 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::num_rows() in /home2/kenspayc/carddispenser.com.ng/app/user.php:943
+Stack trace:
+#0 /home2/kenspayc/carddispenser.com.ng/app/user.php(12): user_reg()
+#1 {main}
+  thrown in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 943
+[08-Aug-2021 15:54:27 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::num_rows() in /home2/kenspayc/carddispenser.com.ng/app/user.php:943
+Stack trace:
+#0 /home2/kenspayc/carddispenser.com.ng/app/user.php(12): user_reg()
+#1 {main}
+  thrown in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 943
+[08-Aug-2021 15:55:17 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::num_rows() in /home2/kenspayc/carddispenser.com.ng/app/user.php:943
+Stack trace:
+#0 /home2/kenspayc/carddispenser.com.ng/app/user.php(12): user_reg()
+#1 {main}
+  thrown in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 943
+[08-Aug-2021 16:01:39 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::num_rows() in /home2/kenspayc/carddispenser.com.ng/app/user.php:943
+Stack trace:
+#0 /home2/kenspayc/carddispenser.com.ng/app/user.php(12): user_reg()
+#1 {main}
+  thrown in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 943
+[08-Aug-2021 18:43:56 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::num_rows() in /home2/kenspayc/carddispenser.com.ng/app/user.php:943
+Stack trace:
+#0 /home2/kenspayc/carddispenser.com.ng/app/user.php(12): user_reg()
+#1 {main}
+  thrown in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 943
+[09-Aug-2021 04:53:10 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::num_rows() in /home2/kenspayc/carddispenser.com.ng/app/user.php:943
+Stack trace:
+#0 /home2/kenspayc/carddispenser.com.ng/app/user.php(12): user_reg()
+#1 {main}
+  thrown in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 943
+[09-Aug-2021 04:53:18 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::num_rows() in /home2/kenspayc/carddispenser.com.ng/app/user.php:943
+Stack trace:
+#0 /home2/kenspayc/carddispenser.com.ng/app/user.php(12): user_reg()
+#1 {main}
+  thrown in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 943
+[09-Aug-2021 04:54:40 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::num_rows() in /home2/kenspayc/carddispenser.com.ng/app/user.php:943
+Stack trace:
+#0 /home2/kenspayc/carddispenser.com.ng/app/user.php(12): user_reg()
+#1 {main}
+  thrown in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 943
+[09-Aug-2021 05:00:29 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::num_rows() in /home2/kenspayc/carddispenser.com.ng/app/user.php:943
+Stack trace:
+#0 /home2/kenspayc/carddispenser.com.ng/app/user.php(12): user_reg()
+#1 {main}
+  thrown in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 943
+[09-Aug-2021 05:00:43 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::num_rows() in /home2/kenspayc/carddispenser.com.ng/app/user.php:943
+Stack trace:
+#0 /home2/kenspayc/carddispenser.com.ng/app/user.php(12): user_reg()
+#1 {main}
+  thrown in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 943
+[09-Aug-2021 05:01:08 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::num_rows() in /home2/kenspayc/carddispenser.com.ng/app/user.php:943
+Stack trace:
+#0 /home2/kenspayc/carddispenser.com.ng/app/user.php(12): user_reg()
+#1 {main}
+  thrown in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 943
+[09-Aug-2021 05:02:05 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::num_rows() in /home2/kenspayc/carddispenser.com.ng/app/user.php:943
+Stack trace:
+#0 /home2/kenspayc/carddispenser.com.ng/app/user.php(12): user_reg()
+#1 {main}
+  thrown in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 943
+[09-Aug-2021 05:21:01 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::pepare() in /home2/kenspayc/carddispenser.com.ng/app/user.php:254
+Stack trace:
+#0 /home2/kenspayc/carddispenser.com.ng/app/user.php(74): user_confirm('1628482734')
+#1 {main}
+  thrown in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 254
+[09-Aug-2021 05:21:09 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::pepare() in /home2/kenspayc/carddispenser.com.ng/app/user.php:254
+Stack trace:
+#0 /home2/kenspayc/carddispenser.com.ng/app/user.php(74): user_confirm('1628482734')
+#1 {main}
+  thrown in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 254
+[09-Aug-2021 05:21:46 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::pepare() in /home2/kenspayc/carddispenser.com.ng/app/user.php:254
+Stack trace:
+#0 /home2/kenspayc/carddispenser.com.ng/app/user.php(74): user_confirm('1628482734')
+#1 {main}
+  thrown in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 254
+[09-Aug-2021 05:24:21 Africa/Lagos] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/PHPMailerAutoload.php on line 45
+[09-Aug-2021 05:30:05 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::clos() in /home2/kenspayc/carddispenser.com.ng/app/user.php:355
+Stack trace:
+#0 /home2/kenspayc/carddispenser.com.ng/app/user.php(30): user_password()
+#1 {main}
+  thrown in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 355
+[09-Aug-2021 05:30:48 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::clos() in /home2/kenspayc/carddispenser.com.ng/app/user.php:355
+Stack trace:
+#0 /home2/kenspayc/carddispenser.com.ng/app/user.php(30): user_password()
+#1 {main}
+  thrown in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 355
+[09-Aug-2021 06:06:45 Africa/Lagos] PHP Catchable fatal error:  Object of class mysqli_stmt could not be converted to string in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 156
+[09-Aug-2021 06:09:24 Africa/Lagos] PHP Fatal error:  Uncaught Error: Object of class mysqli_stmt could not be converted to string in /home2/kenspayc/carddispenser.com.ng/app/user.php:156
+Stack trace:
+#0 /home2/kenspayc/carddispenser.com.ng/app/user.php(156): mysqli_stmt->execute()
+#1 /home2/kenspayc/carddispenser.com.ng/app/user.php(32): user_review()
+#2 {main}
+  thrown in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 156
+[09-Aug-2021 06:14:13 Africa/Lagos] PHP Catchable fatal error:  Object of class mysqli_stmt could not be converted to string in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 156
+[09-Aug-2021 06:35:06 Africa/Lagos] PHP Fatal error:  Uncaught Error: Object of class mysqli_stmt could not be converted to string in /home2/kenspayc/carddispenser.com.ng/app/user.php:156
+Stack trace:
+#0 /home2/kenspayc/carddispenser.com.ng/app/user.php(156): mysqli_stmt->execute()
+#1 /home2/kenspayc/carddispenser.com.ng/app/user.php(32): user_review()
+#2 {main}
+  thrown in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 156
+[12-Aug-2021 22:58:52 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home2/kenspayc/carddispenser.com.ng/app/user.php:393
+Stack trace:
+#0 /home2/kenspayc/carddispenser.com.ng/app/user.php(24): user_img()
+#1 {main}
+  thrown in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 393
+[12-Aug-2021 22:59:43 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home2/kenspayc/carddispenser.com.ng/app/user.php:393
+Stack trace:
+#0 /home2/kenspayc/carddispenser.com.ng/app/user.php(24): user_img()
+#1 {main}
+  thrown in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 393
+[15-Aug-2021 17:24:56 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home2/kenspayc/carddispenser.com.ng/app/user.php:432
+Stack trace:
+#0 /home2/kenspayc/carddispenser.com.ng/app/user.php(26): user_kyc()
+#1 {main}
+  thrown in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 432
+[15-Aug-2021 17:30:05 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home2/kenspayc/carddispenser.com.ng/app/user.php:432
+Stack trace:
+#0 /home2/kenspayc/carddispenser.com.ng/app/user.php(26): user_kyc()
+#1 {main}
+  thrown in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 432
+[15-Aug-2021 17:46:21 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home2/kenspayc/carddispenser.com.ng/app/user.php:487
+Stack trace:
+#0 /home2/kenspayc/carddispenser.com.ng/app/user.php(28): user_status()
+#1 {main}
+  thrown in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 487
+[15-Aug-2021 17:47:02 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home2/kenspayc/carddispenser.com.ng/app/user.php:487
+Stack trace:
+#0 /home2/kenspayc/carddispenser.com.ng/app/user.php(28): user_status()
+#1 {main}
+  thrown in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 487
+[15-Aug-2021 17:51:15 Africa/Lagos] PHP Warning:  unlink(../../profile/1629045947.jpg): No such file or directory in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 495
+[15-Aug-2021 20:31:18 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home2/kenspayc/carddispenser.com.ng/app/user.php:393
+Stack trace:
+#0 /home2/kenspayc/carddispenser.com.ng/app/user.php(24): user_img()
+#1 {main}
+  thrown in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 393
+[15-Aug-2021 20:31:25 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home2/kenspayc/carddispenser.com.ng/app/user.php:393
+Stack trace:
+#0 /home2/kenspayc/carddispenser.com.ng/app/user.php(24): user_img()
+#1 {main}
+  thrown in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 393
+[15-Aug-2021 20:42:35 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home2/kenspayc/carddispenser.com.ng/app/user.php:393
+Stack trace:
+#0 /home2/kenspayc/carddispenser.com.ng/app/user.php(24): user_img()
+#1 {main}
+  thrown in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 393
+[15-Aug-2021 20:42:39 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home2/kenspayc/carddispenser.com.ng/app/user.php:393
+Stack trace:
+#0 /home2/kenspayc/carddispenser.com.ng/app/user.php(24): user_img()
+#1 {main}
+  thrown in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 393
+[15-Aug-2021 20:43:05 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home2/kenspayc/carddispenser.com.ng/app/user.php:393
+Stack trace:
+#0 /home2/kenspayc/carddispenser.com.ng/app/user.php(24): user_img()
+#1 {main}
+  thrown in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 393
+[16-Aug-2021 06:06:15 Africa/Lagos] PHP Warning:  unlink(../../profile/1629090297.jpg): No such file or directory in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 495
+[16-Aug-2021 06:09:14 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home2/kenspayc/carddispenser.com.ng/app/user.php:393
+Stack trace:
+#0 /home2/kenspayc/carddispenser.com.ng/app/user.php(24): user_img()
+#1 {main}
+  thrown in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 393
+[16-Aug-2021 06:09:25 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home2/kenspayc/carddispenser.com.ng/app/user.php:393
+Stack trace:
+#0 /home2/kenspayc/carddispenser.com.ng/app/user.php(24): user_img()
+#1 {main}
+  thrown in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 393
+[16-Aug-2021 06:10:12 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home2/kenspayc/carddispenser.com.ng/app/user.php:393
+Stack trace:
+#0 /home2/kenspayc/carddispenser.com.ng/app/user.php(24): user_img()
+#1 {main}
+  thrown in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 393
+[16-Aug-2021 06:12:52 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home2/kenspayc/carddispenser.com.ng/app/user.php:393
+Stack trace:
+#0 /home2/kenspayc/carddispenser.com.ng/app/user.php(24): user_img()
+#1 {main}
+  thrown in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 393
+[12-Oct-2021 10:40:29 Africa/Lagos] PHP Warning:  unlink(../../profile/1633692401.jpeg): No such file or directory in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 495
+[12-Oct-2021 16:30:49 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home2/kenspayc/carddispenser.com.ng/app/user.php:393
+Stack trace:
+#0 /home2/kenspayc/carddispenser.com.ng/app/user.php(24): user_img()
+#1 {main}
+  thrown in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 393
+[12-Oct-2021 16:30:58 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home2/kenspayc/carddispenser.com.ng/app/user.php:393
+Stack trace:
+#0 /home2/kenspayc/carddispenser.com.ng/app/user.php(24): user_img()
+#1 {main}
+  thrown in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 393
+[12-Oct-2021 20:37:31 Africa/Lagos] PHP Warning:  unlink(../../profile/1633692401.jpeg): No such file or directory in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 495
+[13-Oct-2021 00:59:52 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home2/kenspayc/carddispenser.com.ng/app/user.php:393
+Stack trace:
+#0 /home2/kenspayc/carddispenser.com.ng/app/user.php(24): user_img()
+#1 {main}
+  thrown in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 393
+[13-Oct-2021 01:00:29 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home2/kenspayc/carddispenser.com.ng/app/user.php:393
+Stack trace:
+#0 /home2/kenspayc/carddispenser.com.ng/app/user.php(24): user_img()
+#1 {main}
+  thrown in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 393
+[13-Oct-2021 01:09:58 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home2/kenspayc/carddispenser.com.ng/app/user.php:393
+Stack trace:
+#0 /home2/kenspayc/carddispenser.com.ng/app/user.php(24): user_img()
+#1 {main}
+  thrown in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 393
+[13-Oct-2021 01:18:36 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home2/kenspayc/carddispenser.com.ng/app/user.php:393
+Stack trace:
+#0 /home2/kenspayc/carddispenser.com.ng/app/user.php(24): user_img()
+#1 {main}
+  thrown in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 393
+[13-Oct-2021 01:18:47 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home2/kenspayc/carddispenser.com.ng/app/user.php:393
+Stack trace:
+#0 /home2/kenspayc/carddispenser.com.ng/app/user.php(24): user_img()
+#1 {main}
+  thrown in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 393
+[13-Oct-2021 01:39:48 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home2/kenspayc/carddispenser.com.ng/app/user.php:393
+Stack trace:
+#0 /home2/kenspayc/carddispenser.com.ng/app/user.php(24): user_img()
+#1 {main}
+  thrown in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 393
+[13-Oct-2021 01:49:05 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home2/kenspayc/carddispenser.com.ng/app/user.php:393
+Stack trace:
+#0 /home2/kenspayc/carddispenser.com.ng/app/user.php(24): user_img()
+#1 {main}
+  thrown in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 393
+[20-Oct-2021 18:49:45 Africa/Lagos] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/PHPMailerAutoload.php on line 45
+[20-Oct-2021 18:50:16 Africa/Lagos] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/PHPMailerAutoload.php on line 45
+[20-Oct-2021 18:51:43 Africa/Lagos] PHP Warning:  Undefined variable $kenhost in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 583
+[20-Oct-2021 18:56:18 Africa/Lagos] PHP Fatal error:  Uncaught Error: Class 'PHPMailer' not found in /home2/kenspayc/carddispenser.com.ng/app/user.php:604
+Stack trace:
+#0 /home2/kenspayc/carddispenser.com.ng/app/user.php(10): user_login()
+#1 {main}
+  thrown in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 604
+[20-Oct-2021 18:56:21 Africa/Lagos] PHP Fatal error:  Uncaught Error: Class 'PHPMailer' not found in /home2/kenspayc/carddispenser.com.ng/app/user.php:604
+Stack trace:
+#0 /home2/kenspayc/carddispenser.com.ng/app/user.php(10): user_login()
+#1 {main}
+  thrown in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 604
+[04-Nov-2021 18:56:23 Africa/Lagos] PHP Warning:  Packets out of order. Expected 0 received 1. Packet size=23 in /home2/kenspayc/carddispenser.com.ng/app/castro_func.php on line 16
+[04-Nov-2021 18:56:23 Africa/Lagos] PHP Warning:  mysqli_connect(): MySQL server has gone away in /home2/kenspayc/carddispenser.com.ng/app/castro_func.php on line 16
+[04-Nov-2021 18:56:23 Africa/Lagos] PHP Warning:  mysqli_connect(): Error while reading greeting packet. PID=3196685 in /home2/kenspayc/carddispenser.com.ng/app/castro_func.php on line 16
+[04-Nov-2021 18:56:23 Africa/Lagos] PHP Warning:  mysqli_connect(): (HY000/2006): MySQL server has gone away in /home2/kenspayc/carddispenser.com.ng/app/castro_func.php on line 16
+[03-Feb-2022 20:34:28 Africa/Lagos] PHP Warning:  unlink(../../profile/1643916637.jpg): No such file or directory in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 495
+[14-Feb-2022 15:15:45 Africa/Lagos] PHP Fatal error:  Uncaught phpmailerException: SMTP Error: Could not authenticate. in /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/class.phpmailer.php:1699
+Stack trace:
+#0 /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/class.phpmailer.php(1542): PHPMailer->smtpConnect(Array)
+#1 /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/class.phpmailer.php(1337): PHPMailer->smtpSend('Date: Mon, 14 F...', 'This is a multi...')
+#2 /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/class.phpmailer.php(1215): PHPMailer->postSend()
+#3 /home2/kenspayc/carddispenser.com.ng/app/user.php(620): PHPMailer->send()
+#4 /home2/kenspayc/carddispenser.com.ng/app/user.php(10): user_login()
+#5 {main}
+  thrown in /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/class.phpmailer.php on line 1699
+[14-Feb-2022 15:19:26 Africa/Lagos] PHP Fatal error:  Uncaught phpmailerException: SMTP Error: Could not authenticate. in /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/class.phpmailer.php:1699
+Stack trace:
+#0 /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/class.phpmailer.php(1542): PHPMailer->smtpConnect(Array)
+#1 /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/class.phpmailer.php(1337): PHPMailer->smtpSend('Date: Mon, 14 F...', 'This is a multi...')
+#2 /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/class.phpmailer.php(1215): PHPMailer->postSend()
+#3 /home2/kenspayc/carddispenser.com.ng/app/user.php(620): PHPMailer->send()
+#4 /home2/kenspayc/carddispenser.com.ng/app/user.php(10): user_login()
+#5 {main}
+  thrown in /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/class.phpmailer.php on line 1699
+[16-Feb-2022 15:35:58 Africa/Lagos] PHP Warning:  unlink(../../profile/1645021986.jpeg): No such file or directory in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 495
+[17-Feb-2022 15:36:46 Africa/Lagos] PHP Warning:  unlink(../../profile/1645021986.jpeg): No such file or directory in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 495
+[28-Mar-2022 13:50:13 Africa/Lagos] PHP Fatal error:  Uncaught phpmailerException: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/class.phpmailer.php:1543
+Stack trace:
+#0 /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/class.phpmailer.php(1337): PHPMailer->smtpSend('Date: Mon, 28 M...', 'This is a multi...')
+#1 /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/class.phpmailer.php(1215): PHPMailer->postSend()
+#2 /home2/kenspayc/carddispenser.com.ng/app/user.php(620): PHPMailer->send()
+#3 /home2/kenspayc/carddispenser.com.ng/app/user.php(10): user_login()
+#4 {main}
+  thrown in /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/class.phpmailer.php on line 1543
+[28-Mar-2022 13:51:11 Africa/Lagos] PHP Fatal error:  Uncaught phpmailerException: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/class.phpmailer.php:1543
+Stack trace:
+#0 /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/class.phpmailer.php(1337): PHPMailer->smtpSend('Date: Mon, 28 M...', 'This is a multi...')
+#1 /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/class.phpmailer.php(1215): PHPMailer->postSend()
+#2 /home2/kenspayc/carddispenser.com.ng/app/user.php(620): PHPMailer->send()
+#3 /home2/kenspayc/carddispenser.com.ng/app/user.php(10): user_login()
+#4 {main}
+  thrown in /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/class.phpmailer.php on line 1543
+[30-Mar-2022 11:08:37 Africa/Lagos] PHP Fatal error:  Uncaught phpmailerException: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/class.phpmailer.php:1543
+Stack trace:
+#0 /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/class.phpmailer.php(1337): PHPMailer->smtpSend('Date: Wed, 30 M...', 'This is a multi...')
+#1 /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/class.phpmailer.php(1215): PHPMailer->postSend()
+#2 /home2/kenspayc/carddispenser.com.ng/app/user.php(620): PHPMailer->send()
+#3 /home2/kenspayc/carddispenser.com.ng/app/user.php(10): user_login()
+#4 {main}
+  thrown in /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/class.phpmailer.php on line 1543
+[30-Mar-2022 11:08:55 Africa/Lagos] PHP Fatal error:  Uncaught phpmailerException: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/class.phpmailer.php:1543
+Stack trace:
+#0 /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/class.phpmailer.php(1337): PHPMailer->smtpSend('Date: Wed, 30 M...', 'This is a multi...')
+#1 /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/class.phpmailer.php(1215): PHPMailer->postSend()
+#2 /home2/kenspayc/carddispenser.com.ng/app/user.php(620): PHPMailer->send()
+#3 /home2/kenspayc/carddispenser.com.ng/app/user.php(10): user_login()
+#4 {main}
+  thrown in /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/class.phpmailer.php on line 1543
+[30-Mar-2022 11:09:55 Africa/Lagos] PHP Fatal error:  Uncaught phpmailerException: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/class.phpmailer.php:1543
+Stack trace:
+#0 /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/class.phpmailer.php(1337): PHPMailer->smtpSend('Date: Wed, 30 M...', 'This is a multi...')
+#1 /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/class.phpmailer.php(1215): PHPMailer->postSend()
+#2 /home2/kenspayc/carddispenser.com.ng/app/user.php(620): PHPMailer->send()
+#3 /home2/kenspayc/carddispenser.com.ng/app/user.php(10): user_login()
+#4 {main}
+  thrown in /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/class.phpmailer.php on line 1543
+[30-Mar-2022 11:10:12 Africa/Lagos] PHP Fatal error:  Uncaught phpmailerException: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/class.phpmailer.php:1543
+Stack trace:
+#0 /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/class.phpmailer.php(1337): PHPMailer->smtpSend('Date: Wed, 30 M...', 'This is a multi...')
+#1 /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/class.phpmailer.php(1215): PHPMailer->postSend()
+#2 /home2/kenspayc/carddispenser.com.ng/app/user.php(620): PHPMailer->send()
+#3 /home2/kenspayc/carddispenser.com.ng/app/user.php(10): user_login()
+#4 {main}
+  thrown in /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/class.phpmailer.php on line 1543
+[30-Mar-2022 11:10:47 Africa/Lagos] PHP Fatal error:  Uncaught phpmailerException: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/class.phpmailer.php:1543
+Stack trace:
+#0 /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/class.phpmailer.php(1337): PHPMailer->smtpSend('Date: Wed, 30 M...', 'This is a multi...')
+#1 /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/class.phpmailer.php(1215): PHPMailer->postSend()
+#2 /home2/kenspayc/carddispenser.com.ng/app/user.php(620): PHPMailer->send()
+#3 /home2/kenspayc/carddispenser.com.ng/app/user.php(10): user_login()
+#4 {main}
+  thrown in /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/class.phpmailer.php on line 1543
+[30-Mar-2022 11:19:29 Africa/Lagos] PHP Fatal error:  Uncaught phpmailerException: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/class.phpmailer.php:1543
+Stack trace:
+#0 /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/class.phpmailer.php(1337): PHPMailer->smtpSend('Date: Wed, 30 M...', 'This is a multi...')
+#1 /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/class.phpmailer.php(1215): PHPMailer->postSend()
+#2 /home2/kenspayc/carddispenser.com.ng/app/user.php(620): PHPMailer->send()
+#3 /home2/kenspayc/carddispenser.com.ng/app/user.php(10): user_login()
+#4 {main}
+  thrown in /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/class.phpmailer.php on line 1543
+[18-Apr-2022 21:38:29 Africa/Lagos] PHP Warning:  unlink(../../profile/1650314280.jpg): No such file or directory in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 495
+[16-May-2022 09:07:06 Africa/Lagos] PHP Fatal error:  Uncaught phpmailerException: SMTP Error: The following recipients failed: kalazeribolouyigha@gmail.com: Temporary local problem - please try later
+ in /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/class.phpmailer.php:1585
+Stack trace:
+#0 /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/class.phpmailer.php(1337): PHPMailer->smtpSend('Date: Mon, 16 M...', 'This is a multi...')
+#1 /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/class.phpmailer.php(1215): PHPMailer->postSend()
+#2 /home2/kenspayc/carddispenser.com.ng/app/user.php(213): PHPMailer->send()
+#3 /home2/kenspayc/carddispenser.com.ng/app/user.php(71): user_verification('2', '1652688154')
+#4 {main}
+  thrown in /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/class.phpmailer.php on line 1585
+[16-May-2022 09:07:17 Africa/Lagos] PHP Fatal error:  Uncaught phpmailerException: SMTP Error: The following recipients failed: kalazeribolouyigha@gmail.com: Temporary local problem - please try later
+ in /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/class.phpmailer.php:1585
+Stack trace:
+#0 /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/class.phpmailer.php(1337): PHPMailer->smtpSend('Date: Mon, 16 M...', 'This is a multi...')
+#1 /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/class.phpmailer.php(1215): PHPMailer->postSend()
+#2 /home2/kenspayc/carddispenser.com.ng/app/user.php(213): PHPMailer->send()
+#3 /home2/kenspayc/carddispenser.com.ng/app/user.php(71): user_verification('2', '1652688154')
+#4 {main}
+  thrown in /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/class.phpmailer.php on line 1585
+[16-May-2022 11:32:27 Africa/Lagos] PHP Warning:  unlink(../../profile/1652696861.jpeg): No such file or directory in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 495
+[17-May-2022 13:36:38 Africa/Lagos] PHP Fatal error:  Uncaught phpmailerException: Invalid address:  (addAnAddress to):  in /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/class.phpmailer.php:881
+Stack trace:
+#0 /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/class.phpmailer.php(821): PHPMailer->addOrEnqueueAnAddress('to', '', 'Card dispenser')
+#1 /home2/kenspayc/carddispenser.com.ng/app/user.php(273): PHPMailer->addAddress(NULL, 'Card dispenser')
+#2 /home2/kenspayc/carddispenser.com.ng/app/user.php(74): user_confirm('1652688154')
+#3 {main}
+  thrown in /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/class.phpmailer.php on line 881
+[24-May-2022 22:57:48 Africa/Lagos] PHP Warning:  unlink(../../profile/1653429217.jpeg): No such file or directory in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 495
+[27-Oct-2022 13:41:55 Africa/Lagos] PHP Fatal error:  Uncaught phpmailerException: Invalid address:  (addAnAddress to):  in /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/class.phpmailer.php:881
+Stack trace:
+#0 /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/class.phpmailer.php(821): PHPMailer->addOrEnqueueAnAddress('to', '', 'Card dispenser')
+#1 /home2/kenspayc/carddispenser.com.ng/app/user.php(273): PHPMailer->addAddress(NULL, 'Card dispenser')
+#2 /home2/kenspayc/carddispenser.com.ng/app/user.php(74): user_confirm('1666872905')
+#3 {main}
+  thrown in /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/class.phpmailer.php on line 881
+[27-Oct-2022 13:42:04 Africa/Lagos] PHP Fatal error:  Uncaught phpmailerException: Invalid address:  (addAnAddress to):  in /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/class.phpmailer.php:881
+Stack trace:
+#0 /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/class.phpmailer.php(821): PHPMailer->addOrEnqueueAnAddress('to', '', 'Card dispenser')
+#1 /home2/kenspayc/carddispenser.com.ng/app/user.php(273): PHPMailer->addAddress(NULL, 'Card dispenser')
+#2 /home2/kenspayc/carddispenser.com.ng/app/user.php(74): user_confirm('1666872905')
+#3 {main}
+  thrown in /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/class.phpmailer.php on line 881
+[27-Oct-2022 13:42:08 Africa/Lagos] PHP Fatal error:  Uncaught phpmailerException: Invalid address:  (addAnAddress to):  in /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/class.phpmailer.php:881
+Stack trace:
+#0 /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/class.phpmailer.php(821): PHPMailer->addOrEnqueueAnAddress('to', '', 'Card dispenser')
+#1 /home2/kenspayc/carddispenser.com.ng/app/user.php(273): PHPMailer->addAddress(NULL, 'Card dispenser')
+#2 /home2/kenspayc/carddispenser.com.ng/app/user.php(74): user_confirm('1666872905')
+#3 {main}
+  thrown in /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/class.phpmailer.php on line 881
+[29-Nov-2022 10:24:12 Africa/Lagos] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/PHPMailerAutoload.php on line 45
+[30-Nov-2022 20:08:09 Africa/Lagos] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/PHPMailerAutoload.php on line 45
+[04-Dec-2022 06:36:27 Africa/Lagos] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/PHPMailerAutoload.php on line 45
+[25-Dec-2022 07:15:36 Africa/Lagos] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/PHPMailerAutoload.php on line 45
+[03-Jan-2023 17:27:51 Africa/Lagos] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/PHPMailerAutoload.php on line 45
+[03-Jan-2023 17:28:29 Africa/Lagos] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/PHPMailerAutoload.php on line 45
+[03-Jan-2023 17:40:03 Africa/Lagos] PHP Warning:  unlink(../../profile/1672763910.png): No such file or directory in /home2/kenspayc/carddispenser.com.ng/app/user.php on line 495
+[03-Jan-2023 19:32:53 Africa/Lagos] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/PHPMailerAutoload.php on line 45
+[04-Jan-2023 08:33:36 Africa/Lagos] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/PHPMailerAutoload.php on line 45
+[04-Jan-2023 12:35:00 Africa/Lagos] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/PHPMailerAutoload.php on line 45
+[04-Jan-2023 13:49:26 Africa/Lagos] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/PHPMailerAutoload.php on line 45
+[05-Jan-2023 21:45:03 Africa/Lagos] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/PHPMailerAutoload.php on line 45
+[07-Jan-2023 12:48:51 Africa/Lagos] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home2/kenspayc/carddispenser.com.ng/lib/phpmailer/PHPMailerAutoload.php on line 45

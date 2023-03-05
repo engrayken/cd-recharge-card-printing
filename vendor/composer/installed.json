@@ -1,0 +1,215 @@
+[
+    {
+        "name": "block_io-php/block_io-php",
+        "version": "1.2.1",
+        "version_normalized": "1.2.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/BlockIo/block_io-php.git",
+            "reference": "2aefac560b3482f3fb17348ba40cda600bbfcbb5"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/BlockIo/block_io-php/zipball/2aefac560b3482f3fb17348ba40cda600bbfcbb5",
+            "reference": "2aefac560b3482f3fb17348ba40cda600bbfcbb5",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "ext-gmp": "*",
+            "php": ">=5.6.0"
+        },
+        "time": "2019-05-10T21:52:44+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "lib/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "Block.io is the easiest way to create wallets, send, and accept payments through Bitcoin, Litecoin, and Dogecoin. This is its PHP library.",
+        "homepage": "https://block.io",
+        "keywords": [
+            "bitcoin",
+            "block.io",
+            "block_io",
+            "dogecoin",
+            "litecoin"
+        ]
+    },
+    {
+        "name": "coingate/coingate-php",
+        "version": "3.0.4",
+        "version_normalized": "3.0.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/coingate/coingate-php.git",
+            "reference": "df2ed981219e38557f88a7569c841cb252bed9c0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/coingate/coingate-php/zipball/df2ed981219e38557f88a7569c841cb252bed9c0",
+            "reference": "df2ed981219e38557f88a7569c841cb252bed9c0",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "ext-json": "*"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "4.8.*"
+        },
+        "time": "2019-02-26T09:46:31+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "CoinGate\\": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "CoinGate and contributors",
+                "homepage": "https://github.com/coingate/coingate-php/graphs/contributors"
+            }
+        ],
+        "description": "CoinGate library for PHP",
+        "homepage": "https://coingate.com",
+        "keywords": [
+            "altcoin",
+            "bitcoin",
+            "coingate",
+            "gateway",
+            "litecoin",
+            "merchant",
+            "payment"
+        ]
+    },
+    {
+        "name": "coinpaymentsnet/coinpayments-php",
+        "version": "v1.2",
+        "version_normalized": "1.2.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/CoinPaymentsNet/coinpayments-php.git",
+            "reference": "ab6bf5173368753b280c0367b6afb7e701bbe332"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/CoinPaymentsNet/coinpayments-php/zipball/ab6bf5173368753b280c0367b6afb7e701bbe332",
+            "reference": "ab6bf5173368753b280c0367b6afb7e701bbe332",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.5.0"
+        },
+        "time": "2018-09-15T00:00:00+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "/src"
+            ],
+            "exclude-from-classmap": [
+                "/tests"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Cole",
+                "role": "Developer",
+                "email": "cole@coinpayments.net",
+                "homepage": "https://www.coinpayments.net"
+            }
+        ],
+        "description": "A PHP wrapper for the CoinPayments.net v1 API.",
+        "homepage": "https://www.coinpayments.net/apidoc-intro",
+        "keywords": [
+            "api",
+            "bitcoin",
+            "btc",
+            "coinpayments",
+            "crypto",
+            "cryptocurrency",
+            "currency",
+            "ethereum",
+            "litecoin",
+            "merchant",
+            "payment gateway",
+            "payment method",
+            "payment processor",
+            "paypal",
+            "php"
+        ]
+    },
+    {
+        "name": "stripe/stripe-php",
+        "version": "v6.43.1",
+        "version_normalized": "6.43.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/stripe/stripe-php.git",
+            "reference": "42fcdaf99c44bb26937223f8eae1f263491d5ab8"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/stripe/stripe-php/zipball/42fcdaf99c44bb26937223f8eae1f263491d5ab8",
+            "reference": "42fcdaf99c44bb26937223f8eae1f263491d5ab8",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "ext-json": "*",
+            "ext-mbstring": "*",
+            "php": ">=5.4.0"
+        },
+        "require-dev": {
+            "php-coveralls/php-coveralls": "1.*",
+            "phpunit/phpunit": "~4.0",
+            "squizlabs/php_codesniffer": "~2.0",
+            "symfony/process": "~2.8"
+        },
+        "time": "2019-08-29T16:56:12+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.0-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Stripe\\": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Stripe and contributors",
+                "homepage": "https://github.com/stripe/stripe-php/contributors"
+            }
+        ],
+        "description": "Stripe PHP Library",
+        "homepage": "https://stripe.com/",
+        "keywords": [
+            "api",
+            "payment processing",
+            "stripe"
+        ]
+    }
+]

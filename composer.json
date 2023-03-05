@@ -1,0 +1,8 @@
+{
+    "require": {
+        "stripe/stripe-php": "^6.43",
+        "coinpaymentsnet/coinpayments-php": "^1.2",
+        "block_io-php/block_io-php": "^1.2",
+        "coingate/coingate-php": "^3.0"
+    }
+}

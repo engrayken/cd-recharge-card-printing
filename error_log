@@ -1,0 +1,13 @@
+[25-Oct-2021 17:27:08 Africa/Lagos] PHP Warning:  Packets out of order. Expected 0 received 1. Packet size=23 in /home2/kenspayc/carddispenser.com.ng/app/castro_func.php on line 16
+[25-Oct-2021 17:27:08 Africa/Lagos] PHP Warning:  mysqli_connect(): MySQL server has gone away in /home2/kenspayc/carddispenser.com.ng/app/castro_func.php on line 16
+[25-Oct-2021 17:27:08 Africa/Lagos] PHP Warning:  mysqli_connect(): Error while reading greeting packet. PID=162403 in /home2/kenspayc/carddispenser.com.ng/app/castro_func.php on line 16
+[25-Oct-2021 17:27:08 Africa/Lagos] PHP Warning:  mysqli_connect(): (HY000/2006): MySQL server has gone away in /home2/kenspayc/carddispenser.com.ng/app/castro_func.php on line 16
+[22-Nov-2021 13:11:26 Africa/Lagos] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home2/kenspayc/carddispenser.com.ng/app/castro_func.php on line 16
+[15-Dec-2021 09:07:37 Africa/Lagos] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home2/kenspayc/carddispenser.com.ng/app/castro_func.php on line 16
+[28-Dec-2021 21:22:34 Africa/Lagos] PHP Warning:  mysqli_connect(): (HY000/2002): No such file or directory in /home2/kenspayc/carddispenser.com.ng/app/castro_func.php on line 16
+[30-Sep-2022 08:04:40 Africa/Lagos] PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /home2/kenspayc/carddispenser.com.ng/app/castro_func.php on line 16
+[30-Sep-2022 09:16:35 Africa/Lagos] PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /home2/kenspayc/carddispenser.com.ng/app/castro_func.php on line 16
+[30-Sep-2022 09:45:23 Africa/Lagos] PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /home2/kenspayc/carddispenser.com.ng/app/castro_func.php on line 16
+[30-Sep-2022 11:14:40 Africa/Lagos] PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /home2/kenspayc/carddispenser.com.ng/app/castro_func.php on line 16
+[30-Sep-2022 11:42:15 Africa/Lagos] PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /home2/kenspayc/carddispenser.com.ng/app/castro_func.php on line 16
+[03-Nov-2022 00:25:38 Africa/Lagos] PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /home2/kenspayc/carddispenser.com.ng/app/castro_func.php on line 16

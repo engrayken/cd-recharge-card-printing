@@ -1,0 +1,80 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteRule ^([^\.]+)$ $1.php
+RewriteRule ^app/admin/([A-Za-z0-9-]+) app/admin.php?id=$1
+RewriteRule ^app/admin/([A-Za-z0-9-]+)/([0-9-]+)/([0-9-]+) app/admin.php?id=$1&stat=$2&page=$3
+RewriteRule ^app/admin/([A-Za-z0-9-]+)/([0-9-]+) app/admin.php?id=$1&stat=$2
+RewriteRule ^app/admin/([A-Za-z0-9-]+)/([A-Za-z0-9-]+) app/admin.php?id=$1&stat=$2
+RewriteRule ^app/user/([A-Za-z0-9-]+) app/user.php?id=$1
+RewriteRule ^app/card/([A-Za-z0-9-]+) app/card.php?id=$1
+RewriteRule ^app/home/([A-Za-z0-9-]+) app/home.php?id=$1
+RewriteRule ^app/calculator/([A-Za-z0-9-]+) app/calculator.php?id=$1
+RewriteRule ^app/user/([A-Za-z0-9-]+)/([0-9-]+) app/user.php?id=$1&del=$2
+RewriteRule ^app/user/([A-Za-z0-9-]+)/([0-9-]+)/([0-9-]+) app/user.php?id=$1&del=$2&token=$3
+RewriteRule ^app/user/([A-Za-z0-9-]+)/([0-9-]+)/([0-9-]+)/([0-9-]+) app/user.php?id=$1&user=$2&profit_id=$3&amount=$4
+
+RewriteRule ^login view/login.php
+RewriteRule ^forgot view/forgot.php
+RewriteRule ^terms view/terms.php
+RewriteRule ^awards view/awards.php
+RewriteRule ^register view/register.php
+RewriteRule ^contact view/contact.php
+RewriteRule ^calculate view/calculate.php
+RewriteRule ^pricing view/pricing.php
+RewriteRule ^faq view/faq.php
+RewriteRule ^reset view/reset.php
+RewriteRule ^error view/error.php
+RewriteRule ^license view/license.php
+RewriteRule ^about view/about.php
+RewriteRule ^partners view/partners.php
+RewriteRule ^guarantee view/guarantee.php
+RewriteRule ^action_ref/([0-9-]+)/([0-9-]+) view/ref.php?id=$1&status=$2
+RewriteRule ^single/([0-9-]+) view/single.php?id=$1
+RewriteRule ^cat/([0-9-]+)/([0-9-]+) view/cat.php?id=$1&page=$2
+RewriteRule ^page/([0-9-]+) view/pages.php?id=$1 
+RewriteRule ^blog/([0-9]+) view/blog.php?page=$1
+RewriteRule ^r_pass/([0-9-]+) view/r_pass.php?id=$1
+RewriteRule ^r_pass view/r_pass.php
+RewriteRule ^reg_ver/([0-9-]+)/([0-9-]+) view/reg_ver.php?id=$1&status=$2
+RewriteRule ^verify/([0-9-]+) view/verify.php?id=$1
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ view/404.php [L]
+</IfModule>
+
+# BEGIN cPanel-generated php ini directives, do not edit
+# Manual editing of this file may result in unexpected behavior.
+# To make changes to this file, use the cPanel MultiPHP INI Editor (Home >> Software >> MultiPHP INI Editor)
+# For more information, read our documentation (https://go.cpanel.net/EA4ModifyINI)
+<IfModule php7_module>
+   php_flag display_errors Off
+   php_value max_execution_time 60
+   php_value max_input_time 60
+   php_value max_input_vars 3000
+   php_value memory_limit 256M
+   php_value post_max_size 64M
+   php_value session.gc_maxlifetime 1440
+   php_value session.save_path "/var/cpanel/php/sessions/ea-php70"
+   php_value upload_max_filesize 20M
+   php_flag zlib.output_compression Off
+</IfModule>
+<IfModule lsapi_module>
+   php_flag display_errors Off
+   php_value max_execution_time 60
+   php_value max_input_time 60
+   php_value max_input_vars 3000
+   php_value memory_limit 256M
+   php_value post_max_size 64M
+   php_value session.gc_maxlifetime 1440
+   php_value session.save_path "/var/cpanel/php/sessions/ea-php70"
+   php_value upload_max_filesize 20M
+   php_flag zlib.output_compression Off
+</IfModule>
+# END cPanel-generated php ini directives, do not edit
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php74” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php74___lsphp .php .php7 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit
